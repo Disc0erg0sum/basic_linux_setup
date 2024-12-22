@@ -27,7 +27,7 @@ This script installs my standard tool chain and shell configuration on a new mac
 - [curl](https://curl.haxx.se/)
 - [wget](https://www.gnu.org/software/wget/)
 - [most](http://jedsoft.org/most/)
-- [nala](https://github.com/volitank/nala)
+- [nala](https://github.com/volitank/nala) (Just for Debian bast distros)
 - [zsh](http://zsh.sourceforge.net/)
 - [tldr](https://github.com/tldr-pages/tldr)
 - [htop](https://hisham.hm/htop/)
@@ -37,15 +37,22 @@ This script installs my standard tool chain and shell configuration on a new mac
 
 ### Insallation
 
-1. Clone this repository to your home directory
+1. Clone this repository or download the script for your disto.
+```bash
+git clone https://github.com/Disc0erg0sum/basic_linux_setup
+
+```
 2. Chanage into the cloned directory
+```bash
+cd basic_linux_setup
+```
 3. Run the script
+```bash
+./deb_basic_install+config.sh
+```
 4. Clean up
 
 ```bash
-git clone https://github.com/Disc0erg0sum/basic_linux_setup && \
-cd basic_linux_setup && \
-./deb_basic_install+config.sh && \
 cd ..
 rm -rf basic_linux_setup
 ```

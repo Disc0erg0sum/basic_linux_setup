@@ -35,7 +35,7 @@ echo "Install ZSH-autosuggestion plugin. Installation completed."
 ### add custom conifg to .zshrc ###
 echo "add custom conifg to .zshrc"
 # set theme
-sed -i 's/^ZSH_THEME=.*/ZSH_THEME="linuxonly"/' ~/.zshrc
+sed -i 's/^ZSH_THEME=.*/ZSH_THEME="darkblood"/' ~/.zshrc
 # set plugins
 sed -i 's/^plugins=(.*/plugins=(\n\tgit\n\tzsh-autosuggestions\n\tsudo\n\t)/' ~/.zshrc
 # set alias
