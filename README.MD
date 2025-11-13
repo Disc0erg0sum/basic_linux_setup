@@ -1,3 +1,13 @@
+> ## ⚠️ This Project is Deprecated
+>
+> **This repository is archived and read-only.**
+>
+> Development has stopped in favor of a new project, **[hg2z](https://codeberg.org/DiscoErgoSum/hg2z)**, which replaces this one with more features and a better approach.
+>
+> I strongly recommend all users to migrate to the new project.
+>
+> ### 👉 [Check out the new project here](https://codeberg.org/DiscoErgoSum/hg2z)
+
 # Linux Basic Confiuration
 
 This script installs my standard tool chain and shell configuration on a new machine.
